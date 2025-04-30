@@ -16,11 +16,11 @@ A pure PHP web application for managing patients, medicines, and their intake sc
 - Displays required patient/medication lists with infant-safe validation.
 - Secure PDO-based queries.
 
-3. ## Notes
+**3**. Notes
 - Schema and data defined in `sql/init.php`.
 - Built with pure PHP, per task flexibility.
 
-4. ## API Testing Instructions
+**4**. API Testing Instructions
 
 To run test the API, you can use either Postman or your browser
 
