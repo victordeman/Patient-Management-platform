@@ -26,13 +26,13 @@ A pure PHP web application for managing patients, medicines, and their intake sc
 
 -Make this changes in the Open C:\xampp\apache\conf\httpd.conf file
 
--change this:
-   DocumentRoot "C:/xampp/htdocs"
-   <Directory "C:/xampp/htdocs">
+change this:
+DocumentRoot "C:/xampp/htdocs"
+<Directory "C:/xampp/htdocs">
 
-   to this:
-   DocumentRoot "C:/xampp/htdocs/task/public"
-   <Directory "C:/xampp/htdocs/task/public">
-   DirectoryIndex index.php
+to this:
+DocumentRoot "C:/xampp/htdocs/task/public"
+<Directory "C:/xampp/htdocs/task/public">
+DirectoryIndex index.php
 
 
