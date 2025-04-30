@@ -1,1 +1,44 @@
-
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1 {
+    color: #333;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin: 10px 0;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+form {
+    margin: 20px 0;
+}
+label {
+    display: block;
+    margin: 10px 0;
+}
+input, select, button {
+    padding: 5px;
+    margin: 5px;
+}
+.message, .error {
+    padding: 10px;
+    margin: 10px 0;
+}
+.message {
+    background: #d4edda;
+    color: #155724;
+}
+.error {
+    background: #f8d7da;
+    color: #721c24;
+}
